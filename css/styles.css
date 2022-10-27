@@ -68,12 +68,14 @@ header{
 
 .card{
     background-color: black;
+    height: 102px;
 }
 
 address{
     color: white;
     font-style: normal;
     text-decoration: none;
+    border-top: calc((102px - 75px)/2) solid transparent;
     /* margin-top: calc((100px - 75px)/2); */
 }
 
