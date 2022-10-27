@@ -10,7 +10,7 @@
 
 :root{
     --purple: rgb(229,49,112);
-    --skyblue: rgb(26,117,176);
+    --skyblue: rgb(86,184,212)
 }
 /* GENERAL */
 
@@ -28,6 +28,12 @@ h1 {
 p{
     font-size: 1.2rem;
 }
+
+img{
+    height: 100px;
+    margin-right: 10px;
+}
+
 /* UTILS */
 
 .container {
@@ -35,9 +41,53 @@ p{
     margin: 0 auto;
 }
 
+.float-left{
+    float: left;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* HEADER */
 
 header{
     margin: 2.5rem 0;
     text-align: center;
+}
+
+/* CARDS SECTION */
+
+.column{
+    /* border: 1px solid blue; */
+    width: calc(100%/3);
+    padding: 10px;
+}
+
+.card{
+    background-color: black;
+}
+
+address{
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    /* margin-top: calc((100px - 75px)/2); */
+}
+
+.name{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.role{
+    margin: 5px 0;
+}
+
+.email{
+    color: var(--skyblue);
+    text-decoration: none;
 }
