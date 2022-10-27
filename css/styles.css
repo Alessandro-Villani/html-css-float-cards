@@ -6,3 +6,38 @@
     padding: 0;
 }
 
+/* CUSTOM PROPERTIES */
+
+:root{
+    --purple: rgb(229,49,112);
+    --skyblue: rgb(26,117,176);
+}
+/* GENERAL */
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1 {
+    color: var(--purple);
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 2.5rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+/* UTILS */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    margin: 2.5rem 0;
+    text-align: center;
+}
